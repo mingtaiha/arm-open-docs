@@ -5,6 +5,12 @@ https://certbot.eff.org/ for more instructions.
 This step also requires that you have a domain name, and have
 associated the domain name with the IP hosting your webserver.
 
+While it is possible to use only the IP, it is not recommended.
+Certbot won't let you use an IP. For some more intro reading,
+give these a look-see:
+https://stackoverflow.com/questions/2043617/is-it-possible-to-have-ssl-certificate-for-ip-address-not-domain-name
+https://timnash.co.uk/guessing-ssl-questions/
+
 1) Download and Install the Certbot
 `wget https://dl.eff.org/certbot-auto`
 `chmod a+x certbot-auto`
