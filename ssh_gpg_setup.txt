@@ -1,0 +1,5 @@
+Github has great guides for setting both SSH and GPG.
+https://help.github.com/categories/authenticating-to-github/
+
+Additional notes on GPG
+https://help.github.com/categories/authenticating-to-github/
