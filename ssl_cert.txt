@@ -2,6 +2,10 @@ This assumes that you have a LAMP stack (or equivalent) setup.
 The instructions are specific to Apache and CentOS. See
 https://certbot.eff.org/ for more instructions.
 
+Here's the User Guide to CertBot. Useful for knowing where
+the keys and certs are stored, etc ...
+https://certbot.eff.org/docs/using.html#certbot-commands
+
 This step also requires that you have a domain name, and have
 associated the domain name with the IP hosting your webserver.
 
@@ -21,8 +25,12 @@ https://timnash.co.uk/guessing-ssl-questions/
 This part will ask for the domain name you would like to
 certify.
 
-You now have a certicate. However, certificates expire 
-and you will have to periodically renew your certificate
+NOTE: 
+
+If successful, You now have a certicate. However, 
+certificates expire and you will have to periodically 
+renew your certificate. The location of the certs can
+be found in the CertBot User Docs.
 
 3) Renew certificate
 `./path/to/certbot-auto renew`
