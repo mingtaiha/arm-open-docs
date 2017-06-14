@@ -23,7 +23,11 @@ https://timnash.co.uk/guessing-ssl-questions/
 `./path/to/certbot-auto --apache`
 
 This part will ask for the domain name you would like to
-certify.
+certify. Alternately, you can also specify the domain
+name for which you want to get a certificate. Use the
+`-d` option per domain name. E.g.
+
+`./path/to/certbot-auto --apache -d www.dname1.com -d www.dname2.com`
 
 NOTE: 
 
